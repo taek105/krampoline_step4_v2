@@ -13,4 +13,10 @@ CREATE TABLE `sample_data` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO sample_data (`id`,`detail`) VALUES ('1', 'Hello DKOS!');
+INSERT INTO sample_data (`id`,`detail`) VALUES 
+('1', 'Hello DKOS!'),
+('2', 'tony'),
+('3', 'logan'),
+('4', 'chloe'),
+('5', 'elia'),
+('6', 'lydia');
